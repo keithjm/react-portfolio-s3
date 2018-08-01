@@ -1,0 +1,51 @@
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  margin-bottom: 5%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 4px 8px 16px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+#project-title {
+  color: red;
+  text-align: center;
+}
+
+.card-info {
+  padding: 20px;
+}
+
+.btn-github {
+  background-color: #6cc644;
+  color: white;
+}
+
+#logo {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: 1px solid #021a40;
+}
+
+#project-description {
+  margin-top: 15px;
+}
+
+#technology-used-title {
+  font-weight: bold;
+}
